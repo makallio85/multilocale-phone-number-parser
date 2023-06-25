@@ -3,11 +3,11 @@
   "description": "Parses phone numbers from different locales",
   "type": "library",
   "require": {
-    "php": ">=7.4"
+    "php": ">=7.3"
   },
   "config": {
     "platform": {
-      "php": "7.4"
+      "php": "7.3"
     }
   },
   "require-dev": {
