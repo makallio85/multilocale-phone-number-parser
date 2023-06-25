@@ -1,13 +1,13 @@
 <?php
 
-namespace SptSoftware\MultilocalePhoneNumberParser\Test;
+namespace makallio85\MultilocalePhoneNumberParser\Test;
 
 use PHPUnit\Framework\TestCase;
-use SptSoftware\MultilocalePhoneNumberParser\Parser;
+use makallio85\MultilocalePhoneNumberParser\Parser;
 
 /**
  * Class ParserTest
- * @package SptSoftware\MultilocaleNumberParser\Test
+ * @package makallio85\MultilocaleNumberParser\Test
  */
 class ParserTest extends TestCase
 {

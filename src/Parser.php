@@ -1,13 +1,13 @@
 <?php
 
-namespace SptSoftware\MultilocalePhoneNumberParser;
+namespace makallio85\MultilocalePhoneNumberParser;
 
 /**
  * Class Parser
  *
  * Provides tools to validate and manipulate phone numbers within multiple locales
  *
- * @package SptSoftware\MultilocalePhoneNumberParser
+ * @package makallio85\MultilocalePhoneNumberParser
  */
 class Parser
 {

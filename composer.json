@@ -3,11 +3,11 @@
   "description": "Parses phone numbers from different locales",
   "type": "library",
   "require": {
-    "php": ">=5.5"
+    "php": ">=7.4"
   },
   "config": {
     "platform": {
-      "php": "5.5"
+      "php": "7.4"
     }
   },
   "require-dev": {
@@ -16,19 +16,19 @@
   },
   "autoload": {
     "psr-4": {
-      "SptSoftware\\MultilocalePhoneNumberParser\\": "src"
+      "makallio85\\MultilocalePhoneNumberParser\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "SptSoftware\\MultilocalePhoneNumberParser\\Test\\": "tests"
+      "makallio85\\MultilocalePhoneNumberParser\\Test\\": "tests"
     }
   },
-  "license": "proprietary",
+  "license": "MIT",
   "authors": [
     {
       "name": "Marko Kallio",
-      "email": "makallio85"
+      "email": "makallio85@gmail.com"
     }
   ]
 }
