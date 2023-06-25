@@ -1,5 +1,5 @@
 {
-  "name": "sptsoftware/multilocale-phone-number-parser",
+  "name": "makallio85/multilocale-phone-number-parser",
   "description": "Parses phone numbers from different locales",
   "type": "library",
   "require": {
