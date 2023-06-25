@@ -21,10 +21,10 @@ class Parser
             'countryCode'  => 358,
             'mobileBegins' => ['040', '041', '044', '045', '046', '050'],
         ],
-        'est' => [
+        /*'est' => [
             'countryCode'  => 372,
             'mobileBegins' => ['50', '51', '52', '53', '54', '55', '56'],
-        ],
+        ],*/
     ];
 
     /**
@@ -45,7 +45,8 @@ class Parser
 
         foreach ($map as $country => $data) {
             if (preg_match('/^' . $data['countryCode'] . '/', $number)) {
-                $localPart = ltrim($number, $data['countryCode']);
+                $pattern = '/^' . $data['countryCode'] . '/';
+                $localPart = preg_replace($pattern, '', $number);
                 if (preg_match('/^0/', $localPart)) {
                     return false;
                 }
